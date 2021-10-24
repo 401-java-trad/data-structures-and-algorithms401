@@ -30,4 +30,12 @@ public class Stack <T>{
         }
         return null;
     }
+
+    public Node<T> getTop() {
+        return top;
+    }
+
+//    public void setTop(Node<T> top) {
+//        this.top = top;
+//    }
 }
