@@ -20,7 +20,7 @@ public class App {
         linkedList2.insert(8);
         linkedList2.insert(9);
         linkedList2.insert(10);
-        System.out.println(zipListsClass.zipLists(linkedList,linkedList2));
+//        System.out.println(zipListsClass.zipLists(linkedList,linkedList2));
         System.out.println("llll "+linkedList.kthFromEnd(5));
         Stack<Integer> stack = new Stack<Integer>();
         Queue<Integer> queue = new Queue<Integer>();
@@ -36,6 +36,15 @@ public class App {
 //        System.out.println(stack.pop());
 //        System.out.println(stack.pop());
         System.out.println(queue.peek());
+
+        PseudoQueue<String> pseudoQueue = new PseudoQueue<>();
+        pseudoQueue.enqueue("Ali");
+        pseudoQueue.enqueue("Azo");
+        pseudoQueue.enqueue("yosef");
+        pseudoQueue.enqueue("hatem");
+        pseudoQueue.enqueue("hatemmmmmm");
+        System.out.println(pseudoQueue.dequeue());
+        System.out.println(pseudoQueue.dequeue());
 
 
     }
