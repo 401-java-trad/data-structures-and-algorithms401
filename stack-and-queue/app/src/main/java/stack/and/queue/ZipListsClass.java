@@ -23,7 +23,7 @@ public class ZipListsClass<T> {
            }
            currentFirst=currentFirst.getNext().getNext();
            temptFirst = currentFirst;
-           currentSecond=currentSecond.getNext().getNext();
+           currentSecond=currentSecond.getNext();
            tempSecond = currentSecond;
 
        }
